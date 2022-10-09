@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://html5-templates.com/" />
+	<title>Masonry - Simple HTML Template</title>
+	<meta name="description" content="A brief page description">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<h1>Hoja de vida  --  Curriculum Vitae</h1>
+	<h2>
+		Escuela Montesori Jan Amos Comenius (emJAC)</h2>
+	<div class="grid">
+		<div class="grid-item">
+			Ana Membreño
+		</div>
+		<div class="grid-item">
+			Norwing martinez
+		</div>
+		<div class="grid-item">
+			Esnayder Rodríguez
+		</div>
+		<div class="grid-item">
+			Julieta RAMIREZ DIAZ
+		</div>
+		<div class="grid-item">
+			Sven Brieden
+			<a href="https://docs.google.com/document/d/1y0GgO-6d6JOt0zoTvlJmsSGBAmsCSry4qiK_kr1rGbU/edit?usp=sharing">
+				<img alt="Sven Brieden" src="pics/Sven.jpg" width="140">
+			</a>
+		</div>
+		<div class="grid-item">
+			Karen Massiel Mata Reyes
+		</div>
+		<div class="grid-item">
+			Bryan Flores
+		</div>
+		<div class="grid-item">
+			Melisa Carranza Zúñiga
+			<a href="https://docs.google.com/document/d/1cXU9wYug1Woz-J2Sq7uskgO9b900hdg4LnfRLyItE_s/edit?usp=sharing">
+				<img alt="Melisa Carranza" src="pics/Meli.jpg" width="140">
+			</a>
+		</div>
+		<div class="grid-item">
+			Julissa Suarez
+		</div>
+		<div class="grid-item">
+			Ludwing Jimenez
+		</div>
+		<div class="grid-item">
+			Jesner Palacios
+		</div>
+	</div>
+	<p style="padding: 20px; text-align: right;">&copy; You can modify and publish this template without limitations but
+		please leave a link to our website: <a href="https://html5-templates.com/" target="_blank"
+			rel="nofollow">HTML5-Templates.com</a></p>
+
+	<script>
+		$('.grid').masonry({
+			// options
+			itemSelector: '.grid-item',
+			columnWidth: 75
+		});
+	</script>
+</body>
+
+</html>
